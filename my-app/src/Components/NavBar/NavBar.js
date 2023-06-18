@@ -1,7 +1,7 @@
 import "./NavBar.css";
 import Portrait from "../../Icons/website image2.png";
 
-export default function NavBar() {
+export default function NavBar(props) {
   return (
     <div className='NavBar'>
       <div className='NavBar-Left-side'>
@@ -11,7 +11,7 @@ export default function NavBar() {
       <div className='NavBar-Links'>
         <ul>
           <li>HOME</li>
-          <li>ABOUT</li>
+          <li onClick={props.scrollToAbout}>ABOUT</li>
           <li>PROJECTS</li>
           <li>CONTACT</li>
         </ul>

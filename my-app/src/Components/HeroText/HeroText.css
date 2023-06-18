@@ -41,6 +41,12 @@
   font-weight: 700;
   font-size: 2.4rem;
   color: #333333;
+  transition: transform 0.2s ease-in-out;
+}
+
+.HeroText button:hover {
+  cursor: pointer;
+  transform: translateY(-0.5rem);
 }
 
 .scroll-downs {

@@ -1,0 +1,174 @@
+.AboutSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.MyStory {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 0.2rem;
+  line-height: 1.6;
+  padding: 0rem;
+  color: #333333;
+}
+
+.AboutSection h2 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.AboutTitle h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+  margin-bottom: 0rem;
+}
+
+.AboutSection-Left {
+  flex: 1;
+  max-width: 60rem;
+  margin-right: 2rem;
+}
+
+.AboutSection-Right {
+  flex: 1;
+  max-width: 60rem;
+  margin-left: 2rem;
+}
+
+.AboutSection-Right-Top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+
+  color: #333333;
+}
+
+.ContactButton {
+  background-color: #00ffff;
+  margin-top: 4rem;
+  border: none;
+  border-radius: 5px;
+  padding: 1.2rem 4rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #333333;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ContactButton:hover {
+  cursor: pointer;
+  transform: translateY(-0.5rem);
+}
+
+p.HTML {
+  background-color: #ebebeb;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+  margin: 0rem;
+}
+
+p.HTML:hover {
+  background-color: #00ffff;
+}
+
+p.CSS {
+  background-color: #ebebeb;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+  margin: 0rem;
+}
+
+p.CSS:hover {
+  background-color: #00ffff;
+}
+
+p.JavaScript {
+  background-color: #ebebeb;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+  margin: 0rem;
+}
+
+p.JavaScript:hover {
+  background-color: #00ffff;
+}
+
+p.React {
+  background-color: #ebebeb;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+  margin: 0rem;
+}
+
+p.React:hover {
+  background-color: #00ffff;
+}
+
+p.NodeJS {
+  background-color: #ebebeb;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+  margin: 0rem;
+}
+
+p.NodeJS:hover {
+  background-color: #00ffff;
+}
+
+p.Express {
+  background-color: #ebebeb;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+  margin: 0rem;
+}
+
+p.Express:hover {
+  background-color: #00ffff;
+}
+
+p.MongoDB {
+  background-color: #ebebeb;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+  margin: 0rem;
+}
+
+p.MongoDB:hover {
+  background-color: #00ffff;
+}
+
+p.Git {
+  background-color: #ebebeb;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+  margin: 0rem;
+}
+
+p.Git:hover {
+  background-color: #00ffff;
+}
+
+p.GitHub {
+  background-color: #ebebeb;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+  margin: 0rem;
+}
+
+p.GitHub:hover {
+  background-color: #00ffff;
+}
