@@ -2,7 +2,7 @@ import "./AboutSection.css";
 
 export default function AboutSection() {
   return (
-    <div>
+    <div className='AboutContainer'>
       <div className='AboutTitle'>
         <h1>
           <span style={{color: "#00FFFF"}}>.01&nbsp; </span>ABOUT ME

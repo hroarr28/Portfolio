@@ -1,0 +1,44 @@
+.ProjectsSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.Projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ProjectImage {
+  align-items: flex-start;
+  width: 30vw;
+}
+
+.Projects button {
+  background-color: #00ffff;
+  margin-top: 4rem;
+  border: none;
+  border-radius: 5px;
+  padding: 1.2rem 4rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #333333;
+  transition: transform 0.2s ease-in-out;
+}
+
+.Descriptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 8rem;
+  width: 30vw;
+}
+
+.ProjectItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4rem;
+}

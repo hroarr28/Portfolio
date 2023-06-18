@@ -3,6 +3,7 @@ import "./HomePage.css";
 import HeroText from "../HeroText/HeroText";
 import LeftSideLinks from "../LeftSideLinks/LeftSideLinks";
 import AboutSection from "../AboutSection/AboutSection";
+import ProjectsSection from "../ProjectsSection/ProjectsSection";
 
 export default function HomePage(props) {
   return (
@@ -18,6 +19,9 @@ export default function HomePage(props) {
 
       <div ref={props.aboutRef} className='about-container'>
         <AboutSection />
+      </div>
+      <div className='projects-container'>
+        <ProjectsSection />
       </div>
     </>
   );
