@@ -1,0 +1,23 @@
+.HomePage {
+  height: 90vh; /* Set the height of the HomePage container to full viewport height */
+  width: 100vw; /* Set the width of the HomePage container to full viewport width */
+  display: flex; /* Use flexbox to arrange the content */
+  background-color: #ebebeb;
+}
+
+.left-container {
+  width: 4.5rem; /* Set the width of the left container to 3rem */
+  display: flex; /* Use flexbox to arrange the content */
+  flex-direction: column; /* Arrange the content vertically */
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  margin-bottom: 25vh; /* Add a margin to the bottom of the left container */
+}
+
+.right-container {
+  flex: 1; /* Let the right container take the remaining width */
+
+  display: flex; /* Use flexbox to arrange the content */
+  align-items: center; /* Vertically center the content */
+  justify-content: center;
+}

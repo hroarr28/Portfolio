@@ -1,0 +1,79 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6rem;
+  height: 10vh;
+  background-color: #fafafa;
+}
+
+.NavBar h2 {
+  font-family: "Source Sans 3", sans-serif;
+  color: #333333;
+  font-weight: 700;
+  font-size: 1.6rem;
+  position: relative; /* Add a relative position to the h2 element */
+}
+
+.NavBar h2::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem; /* Position the line just below the h2 element */
+  left: 50%; /* Position the line in the middle horizontally */
+  transform: translateX(-50%); /* Center the line */
+  width: 0; /* Initially set the line width to 0 */
+  height: 4px; /* Set the height of the line */
+  background-color: #00ffff;
+  transition: width 0.5s ease; /* Add a transition for smooth animation */
+}
+
+.NavBar h2:hover::after {
+  width: 100%; /* Expand the line to full width on hover */
+}
+
+.NavBar-Left-side {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.NavBar-Links ul {
+  display: flex;
+}
+
+.NavBar img {
+  max-width: auto;
+  max-height: 60px;
+}
+
+.NavBar-Links li {
+  list-style: none;
+  margin-left: 4rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.6rem;
+  position: relative; /* Add a relative position to the li element */
+}
+
+.NavBar-Links li::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem; /* Position the line just below the li element */
+  left: 50%; /* Position the line in the middle horizontally */
+  transform: translateX(-50%); /* Center the line */
+  width: 0; /* Initially set the line width to 0 */
+  height: 4px; /* Set the height of the line */
+  background-color: #00ffff;
+  transition: width 0.5s ease; /* Add a transition for smooth animation */
+}
+
+.NavBar-Links li:hover::after {
+  width: 100%; /* Expand the line to full width on hover */
+}
+
+.NavBar h2:hover,
+.NavBar-Links li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
