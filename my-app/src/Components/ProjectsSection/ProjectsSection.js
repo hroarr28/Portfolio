@@ -3,7 +3,7 @@ import "./ProjectsSection.css";
 
 export default function ProjectsSection() {
   return (
-    <div className='ProjectBackground'>
+    <div className='ProjectContainer'>
       <div className='ProjectTitle'>
         <h1>
           <span style={{color: "#00FFFF"}}>.02&nbsp; </span>PROJECTS

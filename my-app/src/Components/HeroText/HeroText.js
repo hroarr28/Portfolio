@@ -25,7 +25,7 @@ export default function HeroText() {
         </h1>
 
         <p>
-          I am a full stack developer with a passion for creating beautiful and
+          A full stack developer with a passion for creating beautiful and
           functional tech applications.
         </p>
 

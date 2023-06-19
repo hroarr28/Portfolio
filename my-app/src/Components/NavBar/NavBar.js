@@ -12,8 +12,8 @@ export default function NavBar(props) {
         <ul>
           <li>HOME</li>
           <li onClick={props.scrollToAbout}>ABOUT</li>
-          <li>PROJECTS</li>
-          <li>CONTACT</li>
+          <li onClick={props.scrollToProjects}> PROJECTS</li>
+          <li onClick={props.scrollToContact}>CONTACT</li>
         </ul>
       </div>
     </div>
