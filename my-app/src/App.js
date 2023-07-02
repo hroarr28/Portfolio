@@ -1,8 +1,10 @@
 import {useRef} from "react";
 import NavBar from "./Components/NavBar/NavBar";
 import HomePage from "./Components/HomePage/HomePage";
-
+import LocalBuzz from "./Components/LocalBuzz/LocalBuzz";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import "./App.css";
+import HackHealth from "./Components/HackHealth/HackHealth";
 
 export function App() {
   const aboutRef = useRef(null);
@@ -22,19 +24,34 @@ export function App() {
   }
 
   return (
-    <div className='App'>
-      <NavBar
-        scrollToProjects={scrollToProjects}
-        scrollToContact={scrollToContact}
-        scrollToAbout={scrollToAbout}
-      />
-      <HomePage
-        contactRef={contactRef}
-        projectsRef={projectsRef}
-        aboutRef={aboutRef}
-        scrollToAbout={scrollToAbout}
-      />
-    </div>
+    <>
+      <BrowserRouter>
+        <NavBar
+          className='App'
+          scrollToProjects={scrollToProjects}
+          scrollToContact={scrollToContact}
+          scrollToAbout={scrollToAbout}
+        />
+        <Routes>
+          <Route
+            path='/'
+            element={
+              <HomePage
+                contactRef={contactRef}
+                projectsRef={projectsRef}
+                aboutRef={aboutRef}
+                scrollToAbout={scrollToAbout}
+                scrollToProjects={scrollToProjects}
+                scrollToContact={scrollToContact}
+              />
+            }
+          />
+
+          <Route path='/project1' element={<LocalBuzz />} />
+          <Route path='/project2' element={<HackHealth />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

@@ -11,7 +11,9 @@
 
 .ProjectImage {
   align-items: flex-start;
-  width: 30vw;
+  max-width: 50vw;
+  max-height: 60vh;
+  margin-bottom: 8rem;
 }
 
 .Projects button {
@@ -25,6 +27,10 @@
   font-size: 2.4rem;
   color: #333333;
   transition: transform 0.2s ease-in-out;
+}
+
+.Projects button:hover {
+  transform: translateY(-0.5rem);
 }
 
 .Descriptions {

@@ -11,8 +11,6 @@ export default function ProjectsSection() {
       </div>
       <div className='ProjectsSection'>
         <ProjectsCard />
-        <ProjectsCard />
-        <ProjectsCard />
       </div>
     </div>
   );

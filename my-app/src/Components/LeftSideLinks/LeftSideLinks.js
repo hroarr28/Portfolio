@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useState, use} from "react";
 import LinkedIn from "../../Icons/icons8-linked-in-100.png";
 import GitHub from "../../Icons/icons8-github-100.png";
 import LinkedInBlue from "../../Icons/icons8-linked-in-blue100.png";
@@ -33,6 +33,9 @@ export default function LeftSideLinks() {
         onMouseLeave={handleMouseLeaveLI}
       >
         <img
+          onClick={() =>
+            window.open("https://www.linkedin.com/in/tom-chamberlin-9a019960/")
+          }
           src={hoverLinkedIn ? LinkedInBlue : LinkedIn}
           alt='LinkedIn'
           className='linkedin'
@@ -44,6 +47,7 @@ export default function LeftSideLinks() {
         onMouseLeave={handleMouseLeaveGH}
       >
         <img
+          onClick={() => window.open("https://github.com/hroarr28")}
           src={hoverGitHub ? GitHubBlue : GitHub}
           alt='LinkedIn'
           className='linkedin'

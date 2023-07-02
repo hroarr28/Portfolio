@@ -15,12 +15,12 @@ export default function HomePage(props) {
           <LeftSideLinks />
         </div>
         <div className='right-container'>
-          <HeroText />
+          <HeroText scrollToProjects={props.scrollToProjects} />
         </div>
       </div>
 
       <div ref={props.aboutRef} className='about-container'>
-        <AboutSection />
+        <AboutSection scrollToContact={props.scrollToContact} />
       </div>
       <div ref={props.projectsRef} className='projects-container'>
         <ProjectsSection />

@@ -2,7 +2,7 @@ import React from "react";
 import "./HeroText.css";
 import Typewriter from "typewriter-effect";
 
-export default function HeroText() {
+export default function HeroText(props) {
   return (
     <div className='HeroText'>
       <div className='content'>
@@ -29,7 +29,7 @@ export default function HeroText() {
           functional tech applications.
         </p>
 
-        <button>PROJECTS</button>
+        <button onClick={props.scrollToProjects}>PROJECTS</button>
       </div>
 
       <div class='scroll-downs'>

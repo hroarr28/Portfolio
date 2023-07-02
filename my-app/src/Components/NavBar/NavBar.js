@@ -1,5 +1,6 @@
 import "./NavBar.css";
 import Portrait from "../../Icons/website image2.png";
+import {Link} from "react-router-dom";
 
 export default function NavBar(props) {
   return (
@@ -10,7 +11,9 @@ export default function NavBar(props) {
       </div>
       <div className='NavBar-Links'>
         <ul>
-          <li>HOME</li>
+          <Link to='/' style={{textDecoration: "none"}}>
+            <li>HOME</li>
+          </Link>
           <li onClick={props.scrollToAbout}>ABOUT</li>
           <li onClick={props.scrollToProjects}> PROJECTS</li>
           <li onClick={props.scrollToContact}>CONTACT</li>
