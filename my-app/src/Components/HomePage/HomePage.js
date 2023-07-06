@@ -28,9 +28,6 @@ export default function HomePage(props) {
       <div ref={props.contactRef} className='contact-container'>
         <ContactSection />
       </div>
-      <div className='footer-container'>
-        <Footer />
-      </div>
     </>
   );
 }

@@ -5,6 +5,7 @@ import LocalBuzz from "./Components/LocalBuzz/LocalBuzz";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import "./App.css";
 import HackHealth from "./Components/HackHealth/HackHealth";
+import Footer from "./Components/Footer/Footer";
 
 export function App() {
   const aboutRef = useRef(null);
@@ -50,6 +51,7 @@ export function App() {
           <Route path='/project1' element={<LocalBuzz />} />
           <Route path='/project2' element={<HackHealth />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

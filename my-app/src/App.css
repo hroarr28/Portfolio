@@ -14,7 +14,8 @@ h1 {
   font-size: 5rem;
 }
 
-p {
+p,
+li {
   font-family: "Source Sans 3", sans-serif;
   font-size: 2rem;
 }
