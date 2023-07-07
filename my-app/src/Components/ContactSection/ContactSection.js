@@ -10,11 +10,13 @@ export default function ContactSection() {
       </div>
       <div className='ContactSection'>
         <div className='ContactSectionText'>
-          <p className='ContactStory'>
-            Please feel free to reach out by submitting the form below. I will
-            make sure to get back to you as soon as possible. Looking forward to
-            connecting with you!
-          </p>
+          <div className='ContactStoryContainer'>
+            <p>
+              Please feel free to reach out by submitting the form below. I will
+              make sure to get back to you as soon as possible. Looking forward
+              to connecting with you!
+            </p>
+          </div>
           <h2 className='LetsConnect'>Let's Connect</h2>
           <div className='ContactForm'>
             <form name='contact' method='POST'>

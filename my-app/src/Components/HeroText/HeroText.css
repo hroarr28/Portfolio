@@ -4,18 +4,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   color: #333333;
   text-align: center;
   overflow: auto;
-  /* margin-bottom: 15vh; */
 }
 
 .HeroText h1 {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 800;
   font-size: 7rem;
-
   margin-bottom: 0rem;
 }
 
@@ -88,5 +85,32 @@
   100% {
     transform: translateY(10.5px);
     opacity: 0;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+  .HeroText {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-height: 80vh;
+  }
+
+  .HeroText h1 {
+    font-size: 5rem;
+  }
+
+  .HeroText p {
+    font-size: 2rem;
+    max-width: 60rem;
+  }
+
+  .HeroText button {
+    padding: 1rem 4rem;
+    font-size: 1.8rem;
+  }
+
+  .scroll-downs {
+    display: none; /* Hide the scroll downs */
   }
 }
