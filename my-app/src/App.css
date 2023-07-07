@@ -20,4 +20,8 @@ li {
   font-size: 2rem;
 }
 
+button {
+  max-width: 30rem;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700;800&display=swap");

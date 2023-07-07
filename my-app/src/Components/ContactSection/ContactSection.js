@@ -17,7 +17,13 @@ export default function ContactSection() {
           </p>
           <h2 className='LetsConnect'>Let's Connect</h2>
           <div className='ContactForm'>
-            <form>
+            <form
+              name='contact'
+              method='POST'
+              data-netlify='true'
+              data-netlify-recaptcha='true'
+            >
+              <input type='hidden' name='form-name' value='contact' />
               <div className='FormRow'>
                 <label htmlFor='name'>Name</label>
                 <input

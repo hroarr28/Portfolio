@@ -84,101 +84,17 @@
   transform: translateY(-0.5rem);
 }
 
-p.HTML {
+.SkillItem {
   background-color: #ebebeb;
   padding: 2rem 4rem;
   border-radius: 5px;
   margin: 0rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #333333;
 }
 
-p.HTML:hover {
-  background-color: #00ffff;
-}
-
-p.CSS {
-  background-color: #ebebeb;
-  padding: 2rem 4rem;
-  border-radius: 5px;
-  margin: 0rem;
-}
-
-p.CSS:hover {
-  background-color: #00ffff;
-}
-
-p.JavaScript {
-  background-color: #ebebeb;
-  padding: 2rem 4rem;
-  border-radius: 5px;
-  margin: 0rem;
-}
-
-p.JavaScript:hover {
-  background-color: #00ffff;
-}
-
-p.React {
-  background-color: #ebebeb;
-  padding: 2rem 4rem;
-  border-radius: 5px;
-  margin: 0rem;
-}
-
-p.React:hover {
-  background-color: #00ffff;
-}
-
-p.NodeJS {
-  background-color: #ebebeb;
-  padding: 2rem 4rem;
-  border-radius: 5px;
-  margin: 0rem;
-}
-
-p.NodeJS:hover {
-  background-color: #00ffff;
-}
-
-p.Express {
-  background-color: #ebebeb;
-  padding: 2rem 4rem;
-  border-radius: 5px;
-  margin: 0rem;
-}
-
-p.Express:hover {
-  background-color: #00ffff;
-}
-
-p.MongoDB {
-  background-color: #ebebeb;
-  padding: 2rem 4rem;
-  border-radius: 5px;
-  margin: 0rem;
-}
-
-p.MongoDB:hover {
-  background-color: #00ffff;
-}
-
-p.Git {
-  background-color: #ebebeb;
-  padding: 2rem 4rem;
-  border-radius: 5px;
-  margin: 0rem;
-}
-
-p.Git:hover {
-  background-color: #00ffff;
-}
-
-p.GitHub {
-  background-color: #ebebeb;
-  padding: 2rem 4rem;
-  border-radius: 5px;
-  margin: 0rem;
-}
-
-p.GitHub:hover {
+.SkillItem:hover {
   background-color: #00ffff;
 }

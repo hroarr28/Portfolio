@@ -27,6 +27,7 @@
   font-size: 2.4rem;
   color: #333333;
   transition: transform 0.2s ease-in-out;
+  margin-bottom: 10rem;
 }
 
 .Projects button:hover {

@@ -13,7 +13,7 @@ export default function AboutSection() {
           <h2>My Story</h2>
           <p className='MyStory'>
             As a Junior Full-Stack Developer, my diverse background in 3D
-            animation, graphic design and ski instructing brings a unique
+            animation, graphic design, and ski instructing brings a unique
             perspective to the tech industry.
           </p>
           <p className='MyStory'>
@@ -32,21 +32,20 @@ export default function AboutSection() {
             projects. I am excited about the possibilities in the dynamic tech
             industry.
           </p>
-
           <button className='ContactButton'>CONTACT</button>
         </div>
         <div className='AboutSection-Right'>
           <h2>Skills</h2>
           <div className='AboutSection-Right-Top'>
-            <p className='HTML'>HTML</p>
-            <p className='CSS'>CSS</p>
-            <p className='JavaScript'>JavaScript</p>
-            <p className='React'>React</p>
-            <p className='NodeJS'>Node.js</p>
-            <p className='Express'>Express</p>
-            <p className='MongoDB'>MongoDB</p>
-            <p className='Git'>Git</p>
-            <p className='GitHub'>GitHub</p>
+            <p className='SkillItem'>HTML</p>
+            <p className='SkillItem'>CSS</p>
+            <p className='SkillItem'>JavaScript</p>
+            <p className='SkillItem'>React</p>
+            <p className='SkillItem'>Node.js</p>
+            <p className='SkillItem'>Express</p>
+            <p className='SkillItem'>MongoDB</p>
+            <p className='SkillItem'>Git</p>
+            <p className='SkillItem'>GitHub</p>
           </div>
         </div>
       </div>
