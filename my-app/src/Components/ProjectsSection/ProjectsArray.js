@@ -15,7 +15,7 @@ const ProjectsArray = [
     id: 2,
     title: "HackHealth",
     description:
-      "HackHealth is a user-friendly web application designed to help individuals achieve their fitness goals by tracking their daily steps and providing motivation along the way. With HackHealth, users can create an account, set a weekly step goal, and log in to record their daily steps.",
+      "HackHealth is a user-friendly web application designed to help individuals achieve their fitness goals by tracking their daily steps and providing motivation along the way. With HackHealth, users can create a username, set a weekly step goal, and log in to record their daily steps.",
     video: hackHealth,
     overview: "/project2",
   },
