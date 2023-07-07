@@ -23,7 +23,6 @@ export default function ContactSection() {
               data-netlify='true'
               data-netlify-recaptcha='true'
             >
-              <input type='hidden' name='form-name' value='contact' />
               <div className='FormRow'>
                 <label htmlFor='name'>Name</label>
                 <input
