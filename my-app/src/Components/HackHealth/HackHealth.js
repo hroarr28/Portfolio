@@ -14,7 +14,7 @@ export default function HackHealth() {
       </p>
       <div className='buttonContainer'>
         <button
-          onClick={() => window.open("https://local-buzz.netlify.app/")}
+          onClick={() => window.open("https://hackhealth.netlify.app/")}
           className='hackProjectButton'
         >
           PROJECT LINK

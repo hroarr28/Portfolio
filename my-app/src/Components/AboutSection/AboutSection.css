@@ -29,6 +29,7 @@
   font-weight: 700;
   font-size: 2.8rem;
 }
+
 .AboutTitle {
   display: flex;
   justify-content: center;
@@ -54,15 +55,12 @@
 .AboutSection-Right-Top {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
-
   text-align: center;
   font-family: "Source Sans 3", sans-serif;
   font-weight: 400;
   font-size: 2rem;
-
   color: #333333;
 }
 
@@ -97,4 +95,21 @@
 
 .SkillItem:hover {
   background-color: #00ffff;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 420px) {
+  .AboutSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .AboutSection-Left,
+  .AboutSection-Right {
+    display: none;
+  }
+
+  .AboutSection-Right-Top {
+    display: none;
+  }
 }

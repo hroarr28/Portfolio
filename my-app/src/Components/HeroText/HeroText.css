@@ -89,7 +89,7 @@
 }
 
 /* Media Query for Mobile Devices */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 420px) {
   .HeroText {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -106,7 +106,7 @@
   }
 
   .HeroText button {
-    padding: 1rem 4rem;
+    padding: 1rem 90vw;
     font-size: 1.8rem;
   }
 
