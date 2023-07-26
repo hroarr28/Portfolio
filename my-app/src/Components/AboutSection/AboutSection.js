@@ -12,26 +12,27 @@ export default function AboutSection() {
         <div className='AboutSection-Left'>
           <h2>My Story</h2>
           <p className='MyStory'>
-            As a Junior Full-Stack Developer, my diverse background in 3D
-            animation, graphic design, and ski instructing brings a unique
-            perspective to the tech industry.
+            As a Junior Developer, my diverse background in 3D animation,
+            graphic design, and ski instructing brings a unique perspective to
+            the tech industry.
           </p>
           <p className='MyStory'>
-            I believe in technology's potential to solve real-world problems.
+            I believe in technology's potential to solve real-world problems and
+            want to be a part of making peoples lives easier.
+          </p>
+          <p className='MyStory'>
             With strong teamwork and problem-solving skills, I thrive in
-            collaborative environments. I effectively communicate complex
-            technical concepts to both technical and non-technical co-workers.
+            collaborative environments. I enjoy learning and know having a
+            growth mindset is very important in the Tech world. My experience as
+            a ski instructor has bettered my ability to communicate with
+            individuals of various ages and backgrounds on a daily basis.
           </p>
           <p className='MyStory'>
-            Additionally, my experience as a ski instructor has honed my ability
-            to communicate with individuals of various ages and backgrounds on a
-            daily basis.
-          </p>
-          <p className='MyStory'>
-            I'm seeking to apply my skills and contribute to meaningful
-            projects. I am excited about the possibilities in the dynamic tech
+            I'm Seeking to apply my skills and contribute to meaningful and
+            exciting projects. I am excited about a future in the dynamic tech
             industry.
           </p>
+
           <button className='ContactButton'>CONTACT</button>
         </div>
         <div className='AboutSection-Right'>
